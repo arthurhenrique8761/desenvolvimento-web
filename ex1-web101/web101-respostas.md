@@ -7,7 +7,7 @@
 <p>Não havia informação interpretada na tela, apenas o código fonte.</p>
 
 <h3>3. Qual a maior mudança da Web 1.0 para a Web 2.0</h3>
-<p>Os sites deixaram de ser estáticos e passaram a ser dinâmicos, isso é, o site a se adaptar às ações do usuário./p>
+<p>Os sites deixaram de ser estáticos e passaram a ser dinâmicos, isso é, o site a se adaptar às ações do usuário.</p>
 
 <h3>4. Como a IA pode mudar o desenvolvimento web no futuro</h3>
 <p>A IA pode facilitar o desenvolvimento por meio da criação de site apenas por prompts.</p>
