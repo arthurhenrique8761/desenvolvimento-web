@@ -1,8 +1,7 @@
 <h1>Discussão em Grupo</h1>
-<hr>
 
 <h3>1. Por que praticamente todo site usa HTTPS</h3>
-Os sites usam o protocolo HTTPS devido ao seu suporte e segurança por criptografia de dados.	
+<p>Os sites usam o protocolo HTTPS devido ao seu suporte e segurança por criptografia de dados.</p>
 
 2. O que aconteceria se navegadores não interpretassem HTML
 Não havia informação interpretada na tela, apenas o código fonte.
