@@ -1,4 +1,5 @@
 Discussão em Grupo
+<hr>
 
 1. Por que praticamente todo site usa HTTPS
 Os sites usam o protocolo HTTPS devido ao seu suporte e segurança por criptografia de dados.	
