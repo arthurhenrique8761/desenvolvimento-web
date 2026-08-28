@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Discussão em Grupo</h1>
+<h1>Discussão em Grupo</h1>
 
 <h3>1. Por que praticamente todo site usa HTTPS</h3>
 <p>Os sites usam o protocolo HTTPS devido ao seu suporte e segurança por criptografia de dados.</p>
