@@ -1,0 +1,89 @@
+/* estilos gerais */
+
+html {
+    background-color: #242424;
+    color: #f0f8ff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+main ol, ul {
+    margin: 0px;
+}
+
+main {
+    margin: 20px;
+}
+
+main h2 {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5vh 0px 2vh;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+}
+
+table, th, td {
+    border: 1px solid #f0f8ff;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+/* imagens */
+
+#hobbies img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* titulos */
+
+#sobre > h2 {
+    background-color: #45b245;
+}
+#sobre > p {
+    margin: 0px;
+}
+
+#tecnologias > h2 {
+    background-color: #b9a333;
+}
+
+#objetivos > h2 {
+    background-color: #be3c3c;
+}
+
+#hobbies > h2 {
+    background-color:#215281
+}
+
+#contato-form > h2 {
+    background-color:#c36c1a
+}
+
+#links > h2 {
+    background-color:#656a6e
+}
+
+/* paragrafos e links */
+
+a:link {
+    color: #f0f8ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#flexNav {
+    display:flex;
+    justify-content: space-around;
+    background-color:#393939;
+    padding: 10px;
+    border-radius: 10px;
+}
