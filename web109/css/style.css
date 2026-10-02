@@ -1,8 +1,14 @@
-/* estilos gerais */
+:root {
+    /* paleta */
 
+
+    /* semântica */
+}
+
+/* estilos gerais */
 html {
     background-color: #242424;
-    color: #f0f8ff;
+    color: #ebebeb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
@@ -23,8 +29,7 @@ main h2 {
     margin: 5vh 0px 2vh;
 }
 
-header,
-footer {
+header {
     text-align: center;
 }
 
@@ -41,12 +46,17 @@ footer a {
     text-decoration: none;
 }
 
+footer p {
+    margin: 0px;
+}
+
 table,
 th,
 td {
     border: 1px solid #f0f8ff;
     border-collapse: collapse;
-    padding: 4px;
+    padding: 10px;
+    font-size: large;
 }
 
 .card {
@@ -123,7 +133,7 @@ a:visited {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #393939;
-    padding: 15px;
+    padding: 10px;
     border-radius: 18px;
 }
 
@@ -145,7 +155,7 @@ a:visited {
 }
 
 #flexNav a {
-    margin: 2px 10px;
+    margin: 10px;
 }
 
 @media (max-width > 1200px) {
@@ -158,11 +168,17 @@ a:visited {
 /* botões e formulários */
 #contato-form input,
 textarea {
+    width: 100%;
+    box-sizing: border-box;
     color: #f0f8ff;
     background-color: #2c2c2c;
     border: 1px solid #9797976f;
     padding: 10px;
     border-radius: 5px;
+}
+
+#contato-form textarea {
+    height: 200px;
 }
 
 #botaoEnviar {
