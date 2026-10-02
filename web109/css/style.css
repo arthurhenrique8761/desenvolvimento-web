@@ -29,7 +29,16 @@ footer {
 }
 
 footer {
-    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 table,
@@ -77,6 +86,10 @@ section h2 {
     margin: 0px;
 }
 
+#projetos>h2 {
+    background-color: rgb(7, 143, 98);
+}
+
 #tecnologias>h2 {
     background-color: #b9a333;
 }
@@ -93,16 +106,16 @@ section h2 {
     background-color: #c36c1a
 }
 
-#links>h2 {
-    background-color: #656a6e
-}
-
 /* paragrafos e links */
 
 a:link {
     color: #f0f8ff;
     font-weight: bold;
     text-decoration: none;
+}
+
+a:visited {
+    color: #747474;
 }
 
 #flexNav {
@@ -114,6 +127,23 @@ a:link {
     border-radius: 18px;
 }
 
+.projetos-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projeto-card {
+    background-color: rgb(85, 85, 85);
+    border: 1px solid #9797976f;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    /* todos ocupam espaço igual */
+    min-width: 200px;
+    /* largura mínima antes de quebrar */
+}
+
 #flexNav a {
     margin: 2px 10px;
 }
@@ -123,4 +153,22 @@ a:link {
         margin: 80px
     }
 
+}
+
+/* botões e formulários */
+#contato-form input,
+textarea {
+    color: #f0f8ff;
+    background-color: #2c2c2c;
+    border: 1px solid #9797976f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#botaoEnviar {
+    color: #f0f8ff;
+    background-color: #c36c1a;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
 }
