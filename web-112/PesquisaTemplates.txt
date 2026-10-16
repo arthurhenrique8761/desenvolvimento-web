@@ -1,0 +1,15 @@
+# Pesquisa de Templates
+
+## Template 1
+Nome: Personal (Start Bootstrap)
+Tema: Pessoal/portfólio
+O que gostou: Da disposição dos elementos da página e a escolha de fontes
+O que modificaria: As cores. Eu usaria um tema escuro com tonalidades de roxo e laranja os elementos
+Responsividade: Sim
+
+## Template 2
+Nome: ShopWise - eCommerce Website Template
+Tema: eCommerce/Shop
+O que gostou: Cards e formato dos componentes
+O que modificaria: Cores e disposição em grid no formato de desktop
+Responsividade: Sim

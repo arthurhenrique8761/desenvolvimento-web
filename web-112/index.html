@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap - Demonstração</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 style="text-align: center; margin: 20px;">Tecnologias Que Quero Aprender</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Spring Boot</h5>
+                        <p class="card-text">Framework de Java usado para acelerar e simplificar a criação de sistemas.
+                            Essencial para trabalhar com Java profissionalmente</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">Linguagem de consulta usada mundialmente em banco de dados relacionais</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Linguagem C</h5>
+                        <p class="card-text">Linguagem de programação compilada, imperativa e rápida. Utilizada para
+                            otimizar programar por oferecer acesso direto a recursos de hardware</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="botao" class="btn btn-primary mt-4">Clique aqui</button>
+
+    <script>
+        const botao = document.getElementById("botao");
+        botao.addEventListener("click", () => {
+            alert("Sucesso!");
+        });
+    </script>
+</body>
+
+</html>
