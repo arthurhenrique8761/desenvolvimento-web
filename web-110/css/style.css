@@ -1,8 +1,19 @@
 :root {
-    /* paleta */
+    /* paleta - implementar de forma concreta posteriormente*/
+    --main-bg-color: #242424;
+    --card-bg-color: #393939;
+    --subcard-bg-color: #555555;
 
+    --main-font-color: #ebebeb;
 
-    /* semântica */
+    --main-outline: #9797976f;
+
+    --green: #45b245;
+    --teal: #078f62;
+    --yellow: #b9a333;
+    --moderate-red: #be3c3c;
+    --blue: #215281;
+    --orange: #c26c1a;
 }
 
 /* estilos gerais */
@@ -34,18 +45,36 @@ main {
     gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
-nav {grid-column: span 2;}
-#hobbies {grid-column: span 2;}
-#contato-form {grid-column: span 2;}
-footer {grid-column: span 2;}
+
+nav {
+    grid-column: span 2;
+}
+
+#hobbies {
+    grid-column: span 2;
+}
+
+#contato-form {
+    grid-column: span 2;
+}
+
+footer {
+    grid-column: span 2;
+}
 
 table {
     margin: 0 auto;
     margin-top: 10px;
 }
 
-tr:nth-child(odd)   { background-color:#97979750; }
-tr:nth-child(even)    { background-color:#9797971d; }
+/* cores alternadas para a tabela */
+tr:nth-child(odd) {
+    background-color: #97979750;
+}
+
+tr:nth-child(even) {
+    background-color: #9797971d;
+}
 
 
 header {
@@ -116,7 +145,7 @@ section h2 {
 }
 
 #projetos>h2 {
-    background-color: rgb(7, 143, 98);
+    background-color: #078f62;
 }
 
 #tecnologias>h2 {
@@ -163,7 +192,7 @@ a:visited {
 }
 
 .projeto-card {
-    background-color: rgb(85, 85, 85);
+    background-color: #555555;
     border: 1px solid #9797976f;
     border-radius: 10px;
     padding: 20px;

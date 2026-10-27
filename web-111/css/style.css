@@ -1,0 +1,206 @@
+/* Estilos gerais */
+html {
+    background-color: #242424;
+    color: #ebebeb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+main {
+    margin: 20px;
+}
+
+main h2 {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 4vh 0 2vh;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+main ol,
+ul {
+    margin: 0;
+}
+
+/* Links e navegação */
+a:link {
+    color: #f0f8ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #747474;
+}
+
+#flexNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #393939;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+#flexNav a {
+    margin: 10px;
+}
+
+/* Componentes e layouts */
+header {
+    text-align: center;
+}
+
+.card {
+    background-color: #393939;
+    padding: 15px;
+    margin: 30px 0;
+    border: 1px solid #9797976f;
+    border-radius: 22px;
+    box-shadow: 6px 6px 12px #07070734;
+}
+
+/* Projetos */
+.projetos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto-card {
+    background-color: rgb(85, 85, 85);
+    border: 1px solid #9797976f;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Imagens e hobbies */
+#flexImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#hobbies img {
+    width: 100%;
+    /* expande o conteúdo do elemento até ocupar a largura maxima do div pai */
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #f0f8ff;
+    padding: 8px;
+}
+
+/* Cores de fundo específicas */
+#sobre>p {
+    margin: 0;
+}
+
+#sobre>h2 {
+    background-color: #45b245;
+}
+
+#projetos>h2 {
+    background-color: rgb(7, 143, 98);
+}
+
+#tecnologias>h2 {
+    background-color: #b9a333;
+}
+
+#objetivos>h2 {
+    background-color: #be3c3c;
+}
+
+#hobbies>h2 {
+    background-color: #215281;
+}
+
+#contato-form>h2 {
+    background-color: #c36c1a;
+}
+
+
+/* Formulários */
+contato-form input,
+#contato-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    color: #f0f8ff;
+    background-color: #2c2c2c;
+    border: 1px solid #9797976f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contato-form textarea {
+    height: 150px;
+}
+
+#botaoEnviar {
+    color: #f0f8ff;
+    background-color: #c36c1a;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    /* Elementos empilhados no mobile */
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        margin: 40px;
+    }
+
+    .projeto-card {
+        min-width: 200px;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        margin: 80px;
+    }
+}

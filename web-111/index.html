@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cartão de Visitas - Arthur Henrique</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="../images/image.jpg" width="180vh" height="180vh" style="border-radius: 50%" alt="">
+        <h1>Arthur Henrique</h1>
+        <p><strong>Curso: </strong>Análise e Desenvolvimento de Sistemas</p>
+        <p><strong>Cidade/UF: </strong>Cotia-SP</p>
+    </header>
+
+    <main>
+
+        <nav id="flexNav" class="card">
+            <a href="#sobre">Sobre</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#projetos">Meus Projetos</a>
+            <a href="#objetivos">Objetivos Profissionais</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contato-form">Contato</a>
+        </nav>
+
+        <section id="sobre" class="card">
+            <h2>Quem sou eu</h2>
+            <p>Olá, me chamo Arthur Henrique, tenho 19 anos, moro em Cotia, São Paulo e estou cusando ADS na FATEC
+                Carapicuíba.<br>Atualmente estudo a linguagem Java em paralelo com desenvolvimento web (HTML, CSS e
+                JavaScript)</p>
+            <p>Tenho vontade de estudar tecnologia por ser uma área em que sempre tive interesse, pois quando pequeno,
+                tentava aprender linguagens de programação e fazer jogos simples.</p>
+        </section>
+
+        <section id="tecnologias" class="card">
+            <h2>Meus Conhecimentos</h2>
+            <table>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Intermediário/Avançado</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Iniciante</td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td>
+                    <td>Iniciante/Intermediário</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="projetos" class="card">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <a href="https://github.com/arthurhenrique8761/resolucao-desafios-logica" target="_blank">
+                        <h3>Resolução Desafios de Lógica</h3>
+                    </a>
+                    <p>Resolução de desafios de lógica em linguagem Java nas plataformas BeeCrowd e LeetCode</p>
+                </div>
+                <div class="projeto-card">
+                    <a href="https://github.com/arthurhenrique8761/Painel-de-Atendimento" target="_blank">
+                        <h3>Painel de Atendimento</h3>
+                    </a>
+                    <p>Painel de atendimento simples em web desenvolvido para a matéria de algoritmos</p>
+                </div>
+                <div class="projeto-card">
+                    <a href="https://github.com/arthurhenrique8761/portfolio-academico-java" target="_blank">
+                        <h3>Portfolio Academico em Java</h3>
+                    </a>
+                    <p>Gerenciador de projetos com integração em desktop e web via API REST</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="objetivos" class="card">
+            <h2>Objetivos profissionais</h2>
+            <ol>
+                <li><strong>Curto prazo (6 meses): </strong>Conseguir um estágio na área de tecnologia</li>
+                <li><strong>Médio prazo (1-2 anos): </strong>Me formar no meu curso</li>
+                <li><strong>longo prazo (3-5 anos): </strong>Me firmar no mercado de trabalho e buscar outra formação na
+                    área</li>
+            </ol>
+        </section>
+
+        <section id="hobbies" class="card">
+            <h2>Galeria dos meus hobbies</h2>
+            <section id="flexImg">
+                <img src="../images/videogame.jpg" alt="duas pessoas jogando video game">
+                <img src="../images/guitar.jpg" alt="guitarra em cima de um amplificador">
+                <img src="../images/caminhada.jpg" alt="mulher caminhando em uma floresta">
+            </section>
+
+        </section>
+
+        <section id="contato-form" class="card">
+            <h2>Entre em contato</h2>
+
+            <form>
+                <label for="nomeContato">Nome</label><br>
+                <input type="text" id="nomeContato" required>
+                <br><br>
+
+                <label for="emailContato">E-mail</label><br>
+                <input type="email" id="emailContato" required>
+                <br><br>
+
+                <label for="assunto">Assunto</label><br>
+                <input type="text" id="assunto" placeholder="Dúvida, sugestão...">
+                <br><br>
+
+                <label for="mensagemContato">Mensagem</label><br>
+                <textarea id="mensagemContato" placeholder="Digite sua mensagem aqui..."></textarea>
+                <br><br>
+
+                <button id="botaoEnviar" type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>(c) 2026 - Meu Portfólio</p>
+            <div>
+                <a href="https://github.com/arthurhenrique8761">GitHub</a>
+                <a href="https://www.linkedin.com/in/arthur-henrique-956178406/">LinkedIn</a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
