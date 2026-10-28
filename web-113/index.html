@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-113 - JavaScript</title>
+</head>
+<body>
+    <div id="caixa" style="background: yellow; padding: 20px;">
+        Conteúdo da caixa
+    </div>
+    
+
+    <button onclick="alterarVisibilidade()">Clique aqui</button>
+ 
+
+    <script>
+        
+        function alterarVisibilidade() {
+            let caixa = document.getElementById("caixa");
+            if (caixa.style.display === "none") {
+                caixa.style.display = "block";
+            } else {
+                caixa.style.display = "none";
+            }
+        }
+
+        /* document.getElementById("titulo").innerHTML = "Documento atualizado";
+        let opt = prompt("Deseja trocar o valor do h1?: ");
+
+        if (opt === "s") {
+            newH1 = prompt("Insira o texto a ser sobrescrito: ");
+            document.getElementById("titulo").innerHTML = newH1;
+            document.getElementById("titulo").style.color = "red";
+        }
+        else {
+            alert("End");
+        } */
+
+        /* alert("Bem vindo ao meu site!");
+        console.log("teste");
+
+        let nome = prompt("Qual é o seu nome?: ");
+        let idade = prompt("Insira sua idade: ");
+        let estudante = true;
+
+        alert("Bem vindo\nNome: " + nome + "\nIdade: " + idade + "\nEstudante?: " + estudante);
+
+        idade = prompt("insira a idade novamente: ");
+        alert("Idade: " + idade); */
+    </script>
+</body>
+</html>
